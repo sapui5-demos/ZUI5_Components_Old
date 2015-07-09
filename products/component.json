@@ -1,0 +1,11 @@
+{
+    "name": "sap.training.products",
+    "version": "0.1.0",
+    "description": "Products component",
+    "keywords": [
+        "Products",
+        "example" 
+    ],
+    "dependencies": {
+    }
+}

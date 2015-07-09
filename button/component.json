@@ -1,0 +1,11 @@
+{
+    "name": "sap.training.button",
+    "version": "0.1.0",
+    "description": "Sample button component",
+    "keywords": [
+        "button",
+        "example" 
+    ],
+    "dependencies": {
+    }
+}

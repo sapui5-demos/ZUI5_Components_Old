@@ -1,0 +1,54 @@
+{
+  "run": [
+    {
+      "filePath": "/ZUI5_Components_Old/index.html",
+      "previewMode": 0,
+      "dataMode": 1,
+      "workspace": "withoutWorkspace",
+      "ui5ActiveVersion": null,
+      "isDefaultVersion": 0,
+      "urlParameters": [],
+      "_metadata": {
+        "runnerId": "webapprunner",
+        "id": 8522462,
+        "displayName": "New Web Application 14"
+      }
+    },
+    {
+      "filePath": "/ZUI5_Components/index.html",
+      "previewMode": 0,
+      "dataMode": 1,
+      "workspace": "withoutWorkspace",
+      "urlParameters": [],
+      "_metadata": {
+        "runnerId": "webapprunner",
+        "id": 8846818,
+        "displayName": "New Web Application 5"
+      }
+    },
+    {
+      "filePath": "/ZUI5_Components/products/Component.js",
+      "previewMode": 0,
+      "dataMode": 1,
+      "workspace": "withoutWorkspace",
+      "urlParameters": [],
+      "_metadata": {
+        "runnerId": "fiorirunner",
+        "id": 9789095,
+        "displayName": "New SAP Fiori Component 1"
+      }
+    },
+    {
+      "filePath": "/Demo_Components/index.html",
+      "previewMode": 0,
+      "dataMode": 1,
+      "workspace": "withoutWorkspace",
+      "urlParameters": [],
+      "_metadata": {
+        "runnerId": "webapprunner",
+        "id": 6729211,
+        "displayName": "New Web Application 3"
+      }
+    }
+  ]
+}

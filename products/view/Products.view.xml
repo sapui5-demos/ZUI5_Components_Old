@@ -1,0 +1,41 @@
+<core:View xmlns:core="sap.ui.core" 
+	xmlns:mvc="sap.ui.core.mvc" 
+	xmlns:t="sap.ui.table"
+	xmlns="sap.ui.commons" controllerName="sap.training.products.view.Products" 
+	xmlns:html="http://www.w3.org/1999/xhtml">
+
+ <t:Table id="ProductsTable" title="Products" visibleRowCount="10"
+        selectionMode="Single" rows="{/Products}">
+        <t:columns>
+            <t:Column>
+                <t:label>
+                    <Label text="{i18n>productsTabColHeaderId}"/>
+                </t:label>
+                <t:template>
+                    <TextView text="{ID}"/>
+                </t:template>
+            </t:Column>
+
+            <t:Column>
+                <t:label>
+                    <Label text="{i18n>productsTabColHeaderName}"/>
+                </t:label>
+                <t:template>
+                    <TextView text="{Name}"/>
+                </t:template>
+            </t:Column>
+            
+            <t:Column>
+                <t:label>
+                    <Label text="{i18n>productsTabColHeaderDescription}"/>
+                </t:label>
+                <t:template>
+                    <TextView text="{Description}"/>
+                </t:template>
+            </t:Column>
+            
+        </t:columns>
+    </t:Table>
+
+
+</core:View>

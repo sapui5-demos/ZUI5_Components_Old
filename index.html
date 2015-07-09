@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv='Content-Type' content='text/html;charset=UTF-8'/>
+
+		<script src="resources/sap-ui-core.js"
+				id="sap-ui-bootstrap"
+				data-sap-ui-libs="sap.m"
+				data-sap-ui-xx-bindingSyntax="complex"
+				data-sap-ui-resourceroots='{"sap.training": "./"}'
+				data-sap-ui-theme="sap_bluecrystal">
+		</script>
+		<!-- only load the mobile lib "sap.m" and the "sap_bluecrystal" theme -->
+		
+		
+		<script>
+				
+				// Create a Component
+                var oComp1 = sap.ui.getCore().createComponent({
+                                name: "sap.training.button",
+                                id: "Comp1", 
+                                settings: {text: "Hello World"}
+                            });
+                // Create a Component Container 
+                var oCompCont1 = new sap.ui.core.ComponentContainer("CompCont1", {
+                                       component: oComp1
+                                     });
+                // place the Container with the Component inside into an UI Area 
+                oCompCont1.placeAt("target1");
+
+
+                // You can also create a Component and Container at once
+                // In this example the Container will create a new Component according to the name
+                var oCompCont2 = new sap.ui.core.ComponentContainer("CompCont2", {
+                                        name: "sap.training.button",
+                                        settings: {text: "Hello World again"}
+                                     });
+                oCompCont2.placeAt("target2");
+                
+                // Create a component
+                var oComp3 = sap.ui.getCore().createComponent({
+                                name: "sap.training.products",
+                                id: "Comp3"
+                            });
+                // Create an UI container 
+                var oCompCont3 = new sap.ui.core.ComponentContainer("CompCont3", {
+                                       component: oComp3
+                                     });
+                // place this UI Container with the Component inside into an UI Area 
+                oCompCont3.placeAt("target3");
+                
+                 // Create a component
+                var oComp4 = sap.ui.getCore().createComponent({
+                                name: "sap.training.products_with_descriptor",
+                                id: "Comp4"
+                            });
+                // Create an UI container 
+                var oCompCont4 = new sap.ui.core.ComponentContainer("CompCont4", {
+                                       component: oComp4
+                                     });
+                // place this UI Container with the Component inside into an UI Area 
+                oCompCont4.placeAt("target4");
+		</script>
+		
+	</head>
+	<body class="sapUiBody" role="application">
+	
+		<div id="target1"></div>
+		<div id="target2"></div>
+		
+		<div id="target3"></div>
+		<div id="target4"></div>
+	</body>
+</html>
+	
+
+
+
